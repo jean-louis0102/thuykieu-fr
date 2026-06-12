@@ -5,6 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV — Thuy Kieu Vuong</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root {
+      --cv-bg: #ffffff;
+      --cv-text: #2c3e50;
+      --cv-title: #6a1b29;
+      --cv-plum: #8a1c7a;
+      --cv-light: #fdf2fb;
+    }
+    .cv-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 50px;
+      background-color: var(--cv-bg);
+      border-radius: 4px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      color: var(--cv-text);
+      line-height: 1.7;
+    }
+    .cv-header {
+      text-align: center;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #f0e4ee;
+      padding-bottom: 30px;
+    }
+    .cv-header h1 {
+      font-family: 'Georgia', serif;
+      color: var(--cv-title);
+      font-size: 2.8em;
+      font-weight: 300;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    .cv-header p.subtitle {
+      font-size: 1.3em;
+      font-style: italic;
+      color: #7f8c8d;
+      margin: 0;
+    }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      margin-bottom: 50px;
+      align-items: center;
+    }
+    @media(min-width: 768px) {
+      .intro-grid { grid-template-columns: 1fr 2fr; }
+    }
+    .photo-container {
+      width: 220px;
+      height: 270px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: block;
+    }
+    .cv-container h2 {
+      font-family: 'Georgia', serif;
+      font-size: 1.7em;
+      font-weight: 400;
+      color: var(--cv-title);
+      border-bottom: 2px solid var(--cv-plum);
+      margin-top: 45px;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+    }
+    .cv-container h3 {
+      font-size: 1.1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 20px;
+      color: var(--cv-title);
+    }
+    .cv-container ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .cv-container ul li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    .cv-container ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--cv-plum);
+      font-size: 1.2em;
+      top: -2px;
+    }
+    .card-block {
+      background-color: var(--cv-light);
+      padding: 30px;
+      border-radius: 4px;
+      margin-bottom: 30px;
+      border-left: 4px solid var(--cv-plum);
+    }
+    .concert-item {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed #e6dae4;
+    }
+    .concert-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .cv-footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #f0e4ee;
+      font-size: 0.9em;
+      color: #95a5a6;
+    }
+  </style>
 </head>
 <body>
 
@@ -34,8 +156,103 @@
     </div>
   </header>
 
-  <main class="page-content">
-    <img class="img-centree" src="images/360791837932919687b8b7c4745c348d_fit.jpg" alt="CV Thuy Kieu Vuong" style="max-width: 800px;">
+  <main>
+    <div class="cv-container">
+      <div class="cv-header">
+        <h1>Thuy Kieu Vuong</h1>
+        <p class="subtitle">Thérapeute & Artiste Claveciniste</p>
+      </div>
+      <div class="intro-grid">
+        <div class="photo-container">
+          <img src="images/TK_piano.png" alt="Thuy Kieu Vuong au piano" class="profile-img">
+        </div>
+        <div>
+          <p style="font-size: 1.15em; font-style: italic; color: #4f5d6b; margin: 0;">Un parcours singulier et harmonieux unissant l'expression artistique de haut niveau, la sensibilité musicale et l'accompagnement thérapeutique.</p>
+        </div>
+      </div>
+      <div>
+        <h2>Sophrologie, Hypnose, EMDR & Méditation</h2>
+        <div class="card-block">
+          <h3>Compétences & Formations</h3>
+          <ul>
+            <li><strong>Sophrologue</strong> – ESSA Formations</li>
+            <li><strong>Formation à la sophrologie ludique</strong> – PSL (Claudia Sanchez et Ricardo Lopez)</li>
+            <li><strong>Formée à l'animation d'ateliers Gestion du stress – Gestion du sommeil en Entreprise</strong> par Sophro-Trainer</li>
+            <li><strong>Certificat de Praticien en Hypnose</strong> – B & J-M Caplain</li>
+            <li><strong>EMDR</strong> – Formée par un membre de l'Institut EMDR France à la technique de Francine Shapiro</li>
+            <li><strong>Protocoles MBSR/MBCT</strong> – Formés par le Dr Gilles Pentecôte</li>
+            <li><strong>"Instructeur en milieu scolaire et éducatif"</strong> méditation de pleine conscience et de pleine présence. Association Méditation dans l'Enseignement</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>Pratiques professionnelles</h2>
+        <ul>
+          <li><strong>Accompagnements individuels</strong> d'adultes</li>
+          <li><strong>Accompagnement d'artistes</strong> (musiciens, comédiens, danseurs, ...)</li>
+          <li><strong>Sophrologie et méditation</strong> au Centre Ressource Paris VI<sup>ème</sup> – <em>"Aider chaque personne à mieux vivre avec ou après le cancer"</em></li>
+          <li><strong>Atelier Relaxation et Méditation</strong>. Studio Keller, Paris 11<sup>ème</sup></li>
+          <li><strong>Interventions</strong> en écoles élémentaires et collège – Paris 11/12</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Formation musicale</h2>
+        <h3>Clavecin</h3>
+        <ul>
+          <li><strong>Admission au concours externe de professeur d'enseignement artistique</strong>. Liste d'aptitude spécialité : musique ; discipline : clavecin</li>
+          <li><strong>Diplôme d'Etat</strong> de musique ancienne-Clavecin</li>
+          <li><strong>Diplôme de soliste en clavecin</strong> – Hogeschool voor de Kunsten, Utrecht (Pays-Bas). Classe de Glen Wilson & Siebe Henstra</li>
+          <li><strong>Diplôme de perfectionnement</strong> – Mention très bien avec les félicitations du jury. CRR Toulouse. Classe de Jan-Willem Jansen</li>
+          <li><strong>Médaille d'or à l'unanimité</strong> avec les félicitations du jury. CRR Toulouse</li>
+          <li><strong>Certificat de fin d'études</strong> – Mention très bien à l'unanimité. CRR Grenoble</li>
+        </ul>
+        <h3>Accompagnement et Basse Continue</h3>
+        <ul>
+          <li>Centre d'Etudes et de Pratique de la Musique Ancienne (Toulouse)</li>
+        </ul>
+        <h3>Orgue</h3>
+        <ul>
+          <li><strong>Première médaille</strong> (Classe de Michel Bouvard) – CRR Toulouse</li>
+        </ul>
+        <h3>Formations complémentaires</h3>
+        <ul>
+          <li>Harmonie - Histoire de la musique</li>
+          <li>Musique Electro-acoustique, classe de Xavier Garcia</li>
+          <li>Harpe</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Concerts et spectacles (extraits)</h2>
+        <div class="card-block">
+          <div class="concert-item"><strong>Concert solo piano et projections d'images</strong></div>
+          <div class="concert-item"><strong>Concerts solo clavecin et projections d'images</strong> sur des musiques du répertoire pianistique, arrangements Thuy Kieu Vuong</div>
+          <div class="concert-item"><strong>Tournée à Los Angeles</strong> avec l'ensemble "La Turbulente"</div>
+          <div class="concert-item"><strong>Collaboration avec le compositeur Michel Bellier</strong>. Pièces pour clavecin</div>
+          <div class="concert-item"><strong>Création avec la compagnie de danse contemporaine "Mémé banjo"</strong> dirigée par Lionel Hoche pour le spectacle "sinuosus". Tournées en France et à l'étranger</div>
+          <div class="concert-item"><strong>Concert à New York</strong>. Intégrale des pièces pour clavecin écrites par David Bartel à Thuy Kieu Vuong</div>
+          <div class="concert-item"><strong>Concerts-conférence réguliers</strong> au musée de la musique de la cité de la Villette</div>
+          <div class="concert-item"><strong>Travail vidéographique</strong> avec la plasticienne Catie de Balmann</div>
+          <div class="concert-item"><strong>Enregistrement d'une bande sonore</strong> pour la chorégraphe Stéphanie Aubin. Musique de Nicolas Frize</div>
+          <div class="concert-item"><strong>Enregistrement du CD "Aborigène"</strong> avec Michel Godard</div>
+          <div class="concert-item"><strong>Collaboration régulière avec Michel Godard</strong> (Serpent et tuba). Cycles d'émissions à France Musiques. Concert en France et à l'étranger avec la formation "Le chant du serpent" (direction : Michel Godard en collaboration avec Jean Tubéry, cornet à bouquin)</div>
+          <div class="concert-item"><strong>Clavecin solo</strong> dans un spectacle de danse contemporaine en collaboration avec Michel Raji, danseur-chorégraphe</div>
+        </div>
+      </div>
+      <div>
+        <h2>Pratique personnelle</h2>
+        <ul>
+          <li><strong>Méditation</strong></li>
+          <li>Pratique du <strong>Butô</strong></li>
+          <li><strong>Retraites de Pleine Conscience</strong> au village des Pruniers, monastère bouddhiste zen créé par Thich Nhat Hanh</li>
+          <li><strong>Analyse freudienne</strong></li>
+          <li><strong>Tranches de thérapie régulières</strong></li>
+          <li><strong>Supervisions</strong></li>
+        </ul>
+      </div>
+      <div class="cv-footer">
+        <p>&copy; Thuy Kieu Vuong - Tous droits réservés</p>
+      </div>
+    </div>
   </main>
 
   <footer>
