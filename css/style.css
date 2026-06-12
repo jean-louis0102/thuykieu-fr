@@ -466,8 +466,8 @@ footer {
   .hero-accueil {
     margin-top: -80px;
     padding-top: 80px;
-    min-height: calc(100vh - 80px);
-    height: calc(100vh - 80px);
+    min-height: calc(100svh - 80px);
+    height: calc(100svh - 80px);
   }
 
   .hero-accueil img {
