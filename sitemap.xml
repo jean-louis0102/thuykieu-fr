@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://thuykieu.fr/</loc><priority>1.0</priority></url>
+  <url><loc>https://thuykieu.fr/parcours.html</loc><priority>0.8</priority></url>
+  <url><loc>https://thuykieu.fr/pratiques.html</loc><priority>0.8</priority></url>
+  <url><loc>https://thuykieu.fr/accompagnements.html</loc><priority>0.8</priority></url>
+  <url><loc>https://thuykieu.fr/musique.html</loc><priority>0.8</priority></url>
+  <url><loc>https://thuykieu.fr/temoignages.html</loc><priority>0.7</priority></url>
+  <url><loc>https://thuykieu.fr/cv.html</loc><priority>0.7</priority></url>
+  <url><loc>https://thuykieu.fr/lieux-tarifs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://thuykieu.fr/contact.html</loc><priority>0.7</priority></url>
+</urlset>
