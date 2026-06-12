@@ -107,7 +107,8 @@ nav {
 }
 
 .nav-list a.active {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   color: #8B1A8B;
   opacity: 1;
 }
