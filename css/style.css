@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 125px;
 }
 
 a {
@@ -72,6 +72,16 @@ header {
 .logo img {
   height: 60px;
   width: auto;
+}
+
+.logo-localisation {
+  text-align: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: #8B1A1A;
+  margin: 4px 0 0 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0c8c8;
 }
 
 /* =============================================
@@ -146,8 +156,8 @@ main {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-top: -100px;
-  padding-top: 100px;
+  margin-top: -125px;
+  padding-top: 125px;
 }
 
 .hero-accueil img {
@@ -159,12 +169,12 @@ main {
 
 .hero-accueil-text {
   position: absolute;
-  bottom: 25%;
+  bottom: 32%;
   right: auto;
-  left: 52%;
+  left: 48%;
   color: #00CED1;
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 2;
   max-width: 420px;
   text-align: left;
@@ -355,7 +365,7 @@ section h2 {
 
 h1[id],
 h2[id] {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 125px;
 }
 
 /* Sous-menu PRATIQUES */
@@ -460,14 +470,14 @@ footer {
   }
 
   body {
-    padding-top: 80px;
+    padding-top: 105px;
   }
 
   .hero-accueil {
-    margin-top: -80px;
-    padding-top: 80px;
-    min-height: calc(100svh - 80px);
-    height: calc(100svh - 80px);
+    margin-top: -105px;
+    padding-top: 105px;
+    min-height: calc(100svh - 105px);
+    height: calc(100svh - 105px);
   }
 
   .hero-accueil img {
