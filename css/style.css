@@ -10,6 +10,7 @@
 
 html {
   font-size: 16px;
+  scroll-padding-top: 180px;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 125px;
+  padding-top: 180px;
 }
 
 a {
@@ -165,8 +166,8 @@ main {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-top: -125px;
-  padding-top: 125px;
+  margin-top: -180px;
+  padding-top: 180px;
 }
 
 .hero-accueil img {
@@ -374,7 +375,7 @@ section h2 {
 
 h1[id],
 h2[id] {
-  scroll-margin-top: 125px;
+  scroll-margin-top: 180px;
 }
 
 /* Sous-menu PRATIQUES */
@@ -479,14 +480,14 @@ footer {
   }
 
   body {
-    padding-top: 105px;
+    padding-top: 145px;
   }
 
   .hero-accueil {
-    margin-top: -105px;
-    padding-top: 105px;
-    min-height: calc(100svh - 105px);
-    height: calc(100svh - 105px);
+    margin-top: -145px;
+    padding-top: 145px;
+    min-height: calc(100svh - 145px);
+    height: calc(100svh - 145px);
   }
 
   .hero-accueil img {
