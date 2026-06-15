@@ -76,6 +76,7 @@ header {
   color: #8B0000;
   display: block;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .logo img {
@@ -479,8 +480,20 @@ footer {
     padding: 14px 20px;
   }
 
+  html {
+    scroll-padding-top: 260px;
+  }
+
   body {
     padding-top: 145px;
+  }
+
+  .logo-text {
+    font-size: 2rem;
+  }
+
+  .logo-localisation {
+    font-size: 1.4rem;
   }
 
   .hero-accueil {
