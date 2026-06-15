@@ -69,6 +69,14 @@ header {
   display: inline-block;
 }
 
+.logo-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #8B0000;
+  display: block;
+  line-height: 1.2;
+}
+
 .logo img {
   height: 60px;
   width: auto;
@@ -76,7 +84,8 @@ header {
 
 .logo-localisation {
   text-align: center;
-  font-size: 1.1rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.0rem;
   letter-spacing: 0.1em;
   color: #8B1A1A;
   margin: 4px 0 0 0;
