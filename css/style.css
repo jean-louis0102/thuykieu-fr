@@ -580,3 +580,26 @@ footer {
     max-width: 100%;
   }
 }
+
+/* Bouton d'appel à l'action */
+.cta-bloc {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #8B1A1A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  transition: background 0.2s;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  background: #6e1414;
+  color: #fff;
+}
